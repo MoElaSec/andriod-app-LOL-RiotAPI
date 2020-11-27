@@ -13,10 +13,10 @@ public class getTheDataInTheBackground extends AsyncTask {
     @Override
     protected Object doInBackground(Object[] objects) {
         try {
-            ApiConfig config = new ApiConfig().setKey("RGAPI-bf1fe02f-ef06-4534-894d-31af43680931");
+            ApiConfig config = new ApiConfig().setKey("PUt-API-KEY-HER");
             RiotApi api = new RiotApi(config);
 
-            Summoner summoner = api.getSummonerByName(Platform.EUNE, "mid2killer");
+            Summoner summoner = api.getSummonerByName(Platform.EUNE, "pickYourNameHere");
             System.out.println("Name: " + summoner.getName());
             System.out.println("Summoner ID: " + summoner.getId());
             System.out.println("Account Id: " + summoner.getAccountId());
