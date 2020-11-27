@@ -7,3 +7,7 @@ this app is static so far it only print pre-written player info to the console.
 ## todo
 - make a UI
 - get the player info from the UI and display it.
+
+## To Use
+- you must go to the `getTheDataInTheBackground.java`class and write your summoner name and API key
+in the apprioriate place.
